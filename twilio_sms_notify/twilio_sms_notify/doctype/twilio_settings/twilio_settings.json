@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-25 12:00:24.949853",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "auth_token",
+  "account_sid",
+  "twilio_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "auth_token",
+   "fieldtype": "Data",
+   "label": "Auth Token"
+  },
+  {
+   "fieldname": "account_sid",
+   "fieldtype": "Data",
+   "label": "Account SID"
+  },
+  {
+   "fieldname": "twilio_number",
+   "fieldtype": "Data",
+   "label": "Twilio Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-25 12:05:44.703884",
+ "modified_by": "Administrator",
+ "module": "Twilio Sms Notify",
+ "name": "Twilio Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
